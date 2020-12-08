@@ -79,8 +79,6 @@ class App extends Component {
     <div  style= {divStyle}>
       <h1>{this.state.pageTitle}</h1>
 
-     
-
       <button 
       onClick={this.toogleCarsHandler}
       >Toogle Cars</button>
